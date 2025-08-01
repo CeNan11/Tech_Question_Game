@@ -14,7 +14,7 @@ const App: React.FC = () => {
   useEffect(() => {
     if(ready) {
       const shuffled = [...questions].sort(() => 0.5 - Math.random());
-      setQuizQuestions(shuffled.slice(0, 10));
+      setQuizQuestions(shuffled.slice(0, 50));
     }
   }, [ready])
 
@@ -40,9 +40,11 @@ const App: React.FC = () => {
           <h1 className="text-white">Loading question...</h1>
         )
       ) : (
-        <h1 className="text-white text-3xl font-bold mt-10">
-          🎉 You finished the quiz! 🎉
-        </h1>
+        <div className="min-h-screen flex items-center justify-center">
+          <h1 className="font-shareTech text-white text-3xl font-bold">
+            🎉Congrats You have Finished the test🎉 
+          </h1>
+        </div>
       )}
     </div>
   );
