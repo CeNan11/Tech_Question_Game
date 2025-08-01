@@ -2,7 +2,7 @@ import type { Question } from '../types';
 
 export const questions: Question[] = [
   {
-    question: "What does HTML stand for? [1]",
+    question: "What does HTML stand for?",
     options: [
       "Hyper Text Markup Language",
       "Home Tool Markup Language",
@@ -12,7 +12,7 @@ export const questions: Question[] = [
     answer: "Hyper Text Markup Language"
   },
   {
-    question: "Which company developed TypeScript? [2]",
+    question: "Which company developed TypeScript?",
     options: [
       "Microsoft",
       "Facebook",
@@ -22,7 +22,7 @@ export const questions: Question[] = [
     answer: "Microsoft"
   },
   {
-    question: "Which tag is used to include JavaScript in HTML? [3]",
+    question: "Which tag is used to include JavaScript in HTML?",
     options: [
       "<script>",
       "<js>",
@@ -32,7 +32,7 @@ export const questions: Question[] = [
     answer: "<script>"
   },
   {
-    question: "Which tag is used to include JavaScript in HTML? [4]",
+    question: "Which tag is used to include JavaScript in HTML?",
     options: [
       "<script>",
       "<js>",
@@ -42,7 +42,7 @@ export const questions: Question[] = [
     answer: "<script>"
   },
   {
-    question: "Which keyword is used to declare a constant in JavaScript? [5]",
+    question: "Which keyword is used to declare a constant in JavaScript?",
     options: [
       "const",
       "let",
@@ -52,7 +52,7 @@ export const questions: Question[] = [
     answer: "const"
   },
   {
-    question: "Which of the following is a JavaScript framework? [6]",
+    question: "Which of the following is a JavaScript framework?",
     options: [
       "React",
       "Laravel",
@@ -62,7 +62,7 @@ export const questions: Question[] = [
     answer: "React"
   },
   {
-    question: "What does CSS stand for? [7]",
+    question: "What does CSS stand for?",
     options: [
       "Cascading Style Sheets",
       "Creative Style System",
@@ -72,7 +72,7 @@ export const questions: Question[] = [
     answer: "Cascading Style Sheets"
   },
   {
-    question: "Which CSS property controls the text size? [8]",
+    question: "Which CSS property controls the text size?",
     options: [
       "font-size",
       "text-style",
@@ -82,7 +82,7 @@ export const questions: Question[] = [
     answer: "font-size"
   },
   {
-    question: "Which company created React? [9]",
+    question: "Which company created React?",
     options: [
       "Google",
       "Facebook",
@@ -92,7 +92,7 @@ export const questions: Question[] = [
     answer: "Facebook"
   },
   {
-    question: "What does CSS stand for? [10]",
+    question: "What does CSS stand for?",
     options: [
       "Cascading Style Sheets",
       "Creative Style System",
@@ -102,7 +102,7 @@ export const questions: Question[] = [
     answer: "Cascading Style Sheets"
   },
   {
-    question: "Which of the following is a JavaScript framework? [11]",
+    question: "Which of the following is a JavaScript framework?",
     options: [
       "React",
       "Laravel",
@@ -112,7 +112,7 @@ export const questions: Question[] = [
     answer: "React"
   },
   {
-    question: "Which of the following is a JavaScript framework? [12]",
+    question: "Which of the following is a JavaScript framework?",
     options: [
       "React",
       "Laravel",
@@ -122,7 +122,7 @@ export const questions: Question[] = [
     answer: "React"
   },
   {
-    question: "What does HTML stand for? [13]",
+    question: "What does HTML stand for?",
     options: [
       "Hyper Text Markup Language",
       "Home Tool Markup Language",
@@ -132,7 +132,7 @@ export const questions: Question[] = [
     answer: "Hyper Text Markup Language"
   },
   {
-    question: "What does HTML stand for? [14]",
+    question: "What does HTML stand for?",
     options: [
       "Hyper Text Markup Language",
       "Home Tool Markup Language",
@@ -142,7 +142,7 @@ export const questions: Question[] = [
     answer: "Hyper Text Markup Language"
   },
   {
-    question: "Which tag is used to include JavaScript in HTML? [15]",
+    question: "Which tag is used to include JavaScript in HTML?",
     options: [
       "<script>",
       "<js>",
@@ -152,7 +152,7 @@ export const questions: Question[] = [
     answer: "<script>"
   },
   {
-    question: "Which of the following is a JavaScript framework? [16]",
+    question: "Which of the following is a JavaScript framework?",
     options: [
       "React",
       "Laravel",
@@ -162,7 +162,7 @@ export const questions: Question[] = [
     answer: "React"
   },
   {
-    question: "What does CSS stand for? [17]",
+    question: "What does CSS stand for?",
     options: [
       "Cascading Style Sheets",
       "Creative Style System",
@@ -172,7 +172,7 @@ export const questions: Question[] = [
     answer: "Cascading Style Sheets"
   },
   {
-    question: "What is the output of 2 + '2' in JavaScript? [18]",
+    question: "What is the output of 2 + '2' in JavaScript?",
     options: [
       "22",
       "4",
@@ -182,7 +182,7 @@ export const questions: Question[] = [
     answer: "22"
   },
   {
-    question: "Which of the following is a JavaScript framework? [19]",
+    question: "Which of the following is a JavaScript framework?",
     options: [
       "React",
       "Laravel",
@@ -192,7 +192,7 @@ export const questions: Question[] = [
     answer: "React"
   },
   {
-    question: "Which method is used to parse JSON in JavaScript? [20]",
+    question: "Which method is used to parse JSON in JavaScript?",
     options: [
       "JSON.parse()",
       "JSON.read()",
@@ -202,7 +202,7 @@ export const questions: Question[] = [
     answer: "JSON.parse()"
   },
   {
-    question: "Which company developed TypeScript? [21]",
+    question: "Which company developed TypeScript?",
     options: [
       "Microsoft",
       "Facebook",
@@ -212,7 +212,7 @@ export const questions: Question[] = [
     answer: "Microsoft"
   },
   {
-    question: "Which company created React? [22]",
+    question: "Which company created React?",
     options: [
       "Google",
       "Facebook",
@@ -222,7 +222,7 @@ export const questions: Question[] = [
     answer: "Facebook"
   },
   {
-    question: "Which method is used to parse JSON in JavaScript? [23]",
+    question: "Which method is used to parse JSON in JavaScript?",
     options: [
       "JSON.parse()",
       "JSON.read()",
@@ -232,7 +232,7 @@ export const questions: Question[] = [
     answer: "JSON.parse()"
   },
   {
-    question: "Which CSS property controls the text size? [24]",
+    question: "Which CSS property controls the text size?",
     options: [
       "font-size",
       "text-style",
@@ -242,7 +242,7 @@ export const questions: Question[] = [
     answer: "font-size"
   },
   {
-    question: "What does CSS stand for? [25]",
+    question: "What does CSS stand for?",
     options: [
       "Cascading Style Sheets",
       "Creative Style System",
@@ -252,7 +252,7 @@ export const questions: Question[] = [
     answer: "Cascading Style Sheets"
   },
   {
-    question: "Which method is used to parse JSON in JavaScript? [26]",
+    question: "Which method is used to parse JSON in JavaScript?",
     options: [
       "JSON.parse()",
       "JSON.read()",
@@ -262,7 +262,7 @@ export const questions: Question[] = [
     answer: "JSON.parse()"
   },
   {
-    question: "Which of the following is a JavaScript framework? [27]",
+    question: "Which of the following is a JavaScript framework?",
     options: [
       "React",
       "Laravel",
@@ -272,7 +272,7 @@ export const questions: Question[] = [
     answer: "React"
   },
   {
-    question: "Which company created React? [28]",
+    question: "Which company created React?",
     options: [
       "Google",
       "Facebook",
@@ -282,7 +282,7 @@ export const questions: Question[] = [
     answer: "Facebook"
   },
   {
-    question: "Which CSS property controls the text size? [29]",
+    question: "Which CSS property controls the text size?",
     options: [
       "font-size",
       "text-style",
@@ -292,7 +292,7 @@ export const questions: Question[] = [
     answer: "font-size"
   },
   {
-    question: "Which company created React? [30]",
+    question: "Which company created React?",
     options: [
       "Google",
       "Facebook",
@@ -302,7 +302,7 @@ export const questions: Question[] = [
     answer: "Facebook"
   },
   {
-    question: "Which company developed TypeScript? [31]",
+    question: "Which company developed TypeScript?",
     options: [
       "Microsoft",
       "Facebook",
@@ -312,7 +312,7 @@ export const questions: Question[] = [
     answer: "Microsoft"
   },
   {
-    question: "Which of the following is a JavaScript framework? [32]",
+    question: "Which of the following is a JavaScript framework?",
     options: [
       "React",
       "Laravel",
@@ -322,7 +322,7 @@ export const questions: Question[] = [
     answer: "React"
   },
   {
-    question: "Which method is used to parse JSON in JavaScript? [33]",
+    question: "Which method is used to parse JSON in JavaScript?",
     options: [
       "JSON.parse()",
       "JSON.read()",
@@ -332,7 +332,7 @@ export const questions: Question[] = [
     answer: "JSON.parse()"
   },
   {
-    question: "What does HTML stand for? [34]",
+    question: "What does HTML stand for?",
     options: [
       "Hyper Text Markup Language",
       "Home Tool Markup Language",
@@ -342,7 +342,7 @@ export const questions: Question[] = [
     answer: "Hyper Text Markup Language"
   },
   {
-    question: "What is the output of 2 + '2' in JavaScript? [35]",
+    question: "What is the output of 2 + '2' in JavaScript?",
     options: [
       "22",
       "4",
@@ -352,7 +352,7 @@ export const questions: Question[] = [
     answer: "22"
   },
   {
-    question: "What does HTML stand for? [36]",
+    question: "What does HTML stand for?",
     options: [
       "Hyper Text Markup Language",
       "Home Tool Markup Language",
@@ -362,7 +362,7 @@ export const questions: Question[] = [
     answer: "Hyper Text Markup Language"
   },
   {
-    question: "What does HTML stand for? [37]",
+    question: "What does HTML stand for?",
     options: [
       "Hyper Text Markup Language",
       "Home Tool Markup Language",
@@ -372,7 +372,7 @@ export const questions: Question[] = [
     answer: "Hyper Text Markup Language"
   },
   {
-    question: "Which CSS property controls the text size? [38]",
+    question: "Which CSS property controls the text size?",
     options: [
       "font-size",
       "text-style",
@@ -382,7 +382,7 @@ export const questions: Question[] = [
     answer: "font-size"
   },
   {
-    question: "Which company developed TypeScript? [39]",
+    question: "Which company developed TypeScript?",
     options: [
       "Microsoft",
       "Facebook",
@@ -392,7 +392,7 @@ export const questions: Question[] = [
     answer: "Microsoft"
   },
   {
-    question: "Which company developed TypeScript? [40]",
+    question: "Which company developed TypeScript?",
     options: [
       "Microsoft",
       "Facebook",
@@ -402,7 +402,7 @@ export const questions: Question[] = [
     answer: "Microsoft"
   },
   {
-    question: "What does HTML stand for? [41]",
+    question: "What does HTML stand for?",
     options: [
       "Hyper Text Markup Language",
       "Home Tool Markup Language",
@@ -412,7 +412,7 @@ export const questions: Question[] = [
     answer: "Hyper Text Markup Language"
   },
   {
-    question: "Which company created React? [42]",
+    question: "Which company created React?",
     options: [
       "Google",
       "Facebook",
@@ -422,7 +422,7 @@ export const questions: Question[] = [
     answer: "Facebook"
   },
   {
-    question: "What does HTML stand for? [43]",
+    question: "What does HTML stand for?",
     options: [
       "Hyper Text Markup Language",
       "Home Tool Markup Language",
@@ -432,7 +432,7 @@ export const questions: Question[] = [
     answer: "Hyper Text Markup Language"
   },
   {
-    question: "Which keyword is used to declare a constant in JavaScript? [44]",
+    question: "Which keyword is used to declare a constant in JavaScript?",
     options: [
       "const",
       "let",
@@ -442,7 +442,7 @@ export const questions: Question[] = [
     answer: "const"
   },
   {
-    question: "What does CSS stand for? [45]",
+    question: "What does CSS stand for?",
     options: [
       "Cascading Style Sheets",
       "Creative Style System",
@@ -452,7 +452,7 @@ export const questions: Question[] = [
     answer: "Cascading Style Sheets"
   },
   {
-    question: "What is the output of 2 + '2' in JavaScript? [46]",
+    question: "What is the output of 2 + '2' in JavaScript?",
     options: [
       "22",
       "4",
@@ -462,7 +462,7 @@ export const questions: Question[] = [
     answer: "22"
   },
   {
-    question: "Which company created React? [47]",
+    question: "Which company created React?",
     options: [
       "Google",
       "Facebook",
@@ -472,7 +472,7 @@ export const questions: Question[] = [
     answer: "Facebook"
   },
   {
-    question: "Which of the following is a JavaScript framework? [48]",
+    question: "Which of the following is a JavaScript framework?",
     options: [
       "React",
       "Laravel",
@@ -482,7 +482,7 @@ export const questions: Question[] = [
     answer: "React"
   },
   {
-    question: "Which of the following is a JavaScript framework? [49]",
+    question: "Which of the following is a JavaScript framework?",
     options: [
       "React",
       "Laravel",
@@ -492,7 +492,7 @@ export const questions: Question[] = [
     answer: "React"
   },
   {
-    question: "Which keyword is used to declare a constant in JavaScript? [50]",
+    question: "Which keyword is used to declare a constant in JavaScript?",
     options: [
       "const",
       "let",

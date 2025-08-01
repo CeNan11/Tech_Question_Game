@@ -20,9 +20,9 @@ const App: React.FC = () => {
 
   return (
     <div className="min-h-screen bg-gradient-to-r from-black to-gray-900 flex justify-center">
-            {!ready ? (
-        <StartScreen onStart={() => setReady(true)} />
-      ) : !isFinished ? (
+        {!ready ? (
+          <StartScreen onStart={() => setReady(true)} />
+        ) : !isFinished ? (
         quizQuestions.length > 0 && quizQuestions[currentIndex] ? ( 
           <QuestionScreen
             question={quizQuestions[currentIndex]}
